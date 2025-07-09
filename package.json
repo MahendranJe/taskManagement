@@ -1,4 +1,6 @@
 {
+  "homepage": "https://MahendranJe.github.io/taskManagement"
+,
   "name": "task-manager",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +20,15 @@
     "react-toastify": "^11.0.5",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -45,4 +50,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
+  
 }
