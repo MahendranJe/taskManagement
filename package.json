@@ -1,5 +1,5 @@
 {
-  "homepage": "https://MahendranJe.github.io/taskManagement"
+ "homepage": "https://MahendranJe.github.io/taskManagement"
 ,
   "name": "task-manager",
   "version": "0.1.0",
@@ -50,5 +50,4 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-  
 }
